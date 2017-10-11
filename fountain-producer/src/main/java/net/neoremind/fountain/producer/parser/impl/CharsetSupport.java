@@ -8,6 +8,7 @@ public class CharsetSupport {
     private final static Map<String,String> charSetMap = new HashMap<String,String>();
     static{
         charSetMap.put("utf8", "utf-8");
+        charSetMap.put("utf8mb4", "utf-8");
     }
     public static String convertDbCharset2Java(String charSet){
         if(charSetMap.containsKey(charSet)){
