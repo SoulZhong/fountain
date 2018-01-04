@@ -7,13 +7,12 @@
         <groupId>net.neoremind</groupId>
         <artifactId>fountain-base</artifactId>
         <relativePath>../pom.xml</relativePath>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
-
 
     <groupId>net.neoremind</groupId>
     <artifactId>fountain-producer</artifactId>
-    <version>${fountain-producer.version}</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>fountain-producer</name>
 
